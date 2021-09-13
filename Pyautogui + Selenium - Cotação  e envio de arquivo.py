@@ -1,16 +1,4 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# ### Roteiro:  
-# - <font color='red'>abrir navegador, pegar cotação dólar e euro      -SL  -</font> 
-# - <font color='orange'>abrir o navegador, entrar no Discord Web, clicar no Server, enviar a mensagem de cotação e faturamento          -SL</font>   
-# - <font color='green'>baixar os arquivos de faturamento pelo Google Drive   -PA</font> 
-# - <font color='purple'>recortar o arquivo de downloads para a pasta do projeto   -PA-</font> 
-# - <font color='pink'>Anexar o arquivo e enviar separado no Server do Discord       - PA       </font> 
-# 
-#  
-# 
-
+#OUTPUT
 #  ### Texto no Discord  
 # Olá, amigs!  
 # 
@@ -28,9 +16,7 @@
 # Atenciosamente,  
 # 
 # Evilly >emote  
-# 
 
-# In[23]:
 
 
 #1°  baixar os arquivos de faturamento pelo Google Drive -PA
