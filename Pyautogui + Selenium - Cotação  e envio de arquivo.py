@@ -1,20 +1,13 @@
 #OUTPUT
-#  ### Texto no Discord  
+### Texto no Discord  
 # Olá, amigs!  
-# 
 # Pra se manterem informados:  
-# 
 # A cotação do dólar hoje está em: {cotação_dólar}  
-# A cotação do euro hoje está em: {cotação_euro}  
-# 
+# A cotação do euro hoje está em: {cotação_euro}   
 # Faturamento da empresa:  
-# 
 # Ontem  nossa empresa obteve o faturamento de: {faturamento} e a nossa meta de {meta} foi atingida com êxito! (ou não foi atingida com êxito.)  
-# 
 # Segue em anexo a planilha que é atualizada diariamente e enviada para vocês automaticamente.  
-# 
 # Atenciosamente,  
-# 
 # Evilly >emote  
 
 
@@ -82,7 +75,7 @@ py.hotkey('ctrl' , 'v') #cola o arquivo na pasta
 py.press('enter')
 
 
-# In[24]:
+
 
 
 #3° abrir o navegador, entrar no Discord Web, clicar no Server e anexar o arquivo-PY e SL
@@ -123,7 +116,7 @@ py.press('enter') #arquivo em anexo
 py.press('enter') #para enviar o arquivo ###conferir
 
 
-# In[1]:
+
 
 
 #4° atualizar os dados, abrir navegador, pegar cotação dólar e euro -SL e PY
@@ -145,14 +138,6 @@ preço = tabela['Price'].sum() #soma a coluna
 qntd = tabela['Amount'].sum() #soma esta coluna
 faturamento = (preço * qntd)
 meta = 70000
-
-
-#if faturamento >= meta:
-
-#    print('A nossa meta é de R$ {:,.0f}\nNós alcançamos R$ {:,.0f}\nEsse mês nós atingimos a meta!'.format(meta,faturamento)) #.replace(',','.')  
-#else:  
-#    print('oi')
-#print(tabela.info()) #Para ver as especificações da tabela, se em tal lugar é int, str e ect 
 print(tabela)
 print(preço)
 print(qntd)
@@ -265,17 +250,10 @@ pyperclip.copy(mensagem)
 py.hotkey('ctrl','v')
 py.press('enter')
 
-  
- 
-
-
-# In[ ]:
 
 
 
-
-
-#    ###POSIÇÃO DO CLIQUE  
+# ###POSIÇÃO DO CLIQUE  
 # import time  
 # import pyautogui  
 # time.sleep(5)  
