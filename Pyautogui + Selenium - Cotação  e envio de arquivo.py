@@ -92,9 +92,9 @@ navegador.get('https://discord.com/login') #insere o link
 #    '//*[@id="app-mount"]/div/div/div[1]/div[2]/div/div[2]/button').click() #clica em um botão na página
 
 navegador.find_element_by_xpath(
-    '//*[@id="app-mount"]/div[2]/div/div/div/div/form/div/div/div[1]/div[2]/div[1]/div/div[2]/input').send_keys('evillyf05@gmail.com') #escreve o meu e-mail na caixa de login
+    '//*[@id="app-mount"]/div[2]/div/div/div/div/form/div/div/div[1]/div[2]/div[1]/div/div[2]/input').send_keys('email@gmail.com') #escreve o meu e-mail na caixa de login
 navegador.find_element_by_xpath('//*[@id="app-mount"]/div[2]/div/div/div/div/form/div/div/div[1]/div[2]/div[1]/div/div[2]/input').send_keys(Keys.TAB) #aperta tab pra mudar de campo
-navegador.find_element_by_xpath('//*[@id="app-mount"]/div[2]/div/div/div/div/form/div/div/div[1]/div[2]/div[2]/div/input').send_keys('sandydias') #digita a senha no campo
+navegador.find_element_by_xpath('//*[@id="app-mount"]/div[2]/div/div/div/div/form/div/div/div[1]/div[2]/div[2]/div/input').send_keys('senha') #digita a senha no campo
 navegador.find_element_by_xpath('//*[@id="app-mount"]/div[2]/div/div/div/div/form/div/div/div[1]/div[2]/div[2]/div/input').send_keys(Keys.ENTER) #pressiona enter para logar
 
 #enviar a mensagem e anexar o arquivo com o Py
@@ -203,9 +203,9 @@ navegador.get('https://discord.com/login') #insere o link
 
 #FAZENDO LOGIN
 navegador.find_element_by_xpath(
-    '//*[@id="app-mount"]/div[2]/div/div/div/div/form/div/div/div[1]/div[2]/div[1]/div/div[2]/input').send_keys('evillyf05@gmail.com') #escreve o meu e-mail na caixa de login
+    '//*[@id="app-mount"]/div[2]/div/div/div/div/form/div/div/div[1]/div[2]/div[1]/div/div[2]/input').send_keys('email@gmail.com') #escreve o meu e-mail na caixa de login
 navegador.find_element_by_xpath('//*[@id="app-mount"]/div[2]/div/div/div/div/form/div/div/div[1]/div[2]/div[1]/div/div[2]/input').send_keys(Keys.TAB) #aperta tab pra mudar de campo
-navegador.find_element_by_xpath('//*[@id="app-mount"]/div[2]/div/div/div/div/form/div/div/div[1]/div[2]/div[2]/div/input').send_keys('sandydias') #digita a senha no campo
+navegador.find_element_by_xpath('//*[@id="app-mount"]/div[2]/div/div/div/div/form/div/div/div[1]/div[2]/div[2]/div/input').send_keys('senha') #digita a senha no campo
 navegador.find_element_by_xpath('//*[@id="app-mount"]/div[2]/div/div/div/div/form/div/div/div[1]/div[2]/div[2]/div/input').send_keys(Keys.ENTER) #pressiona enter para logar
 
 #ENVIAR A MENSAGEM 
