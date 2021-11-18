@@ -1,6 +1,6 @@
 #OUTPUT
 ### Texto no Discord  
-# Olá, amigs!  
+# Olá!  
 # Pra se manterem informados:  
 # A cotação do dólar hoje está em: {cotação_dólar}  
 # A cotação do euro hoje está em: {cotação_euro}   
